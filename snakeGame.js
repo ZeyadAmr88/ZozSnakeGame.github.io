@@ -29,7 +29,7 @@ const increaseSpeed = () => {
 
 const handleGameOver = () => {
     clearInterval(setIntervalId);
-    alert("Game Over! Press OK to replay");
+    alert("HAHAHA NOPE! Press OK to replay");
     location.reload();
     highScoreElement.innerHTML = `High Score: ${highScore}`;
 
